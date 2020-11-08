@@ -10,8 +10,6 @@ services:
           - GROUPID=1000
     restart: unless-stopped
     tty: true
-    environment:
-      - PORT=5042
     ports: 
       - 5042:5042
     volumes:
